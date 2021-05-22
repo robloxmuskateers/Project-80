@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Project 80
+        </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="main.js"></script>
+    </head>
+
+    <body>
+        <center>
+            <h2 id="one" style="margin-top: 20px; margin-bottom: 20px;">
+                Guest List
+            </h2>
+
+            <div id="rows">
+                <span>
+                    <input type="text" placeholder="Guest Name" id="guest_name_input">
+                </span>
+                <button id="submit" onclick="submit()">
+                    Submit
+                </button>
+                <br>
+            </div>
+
+            <hr>
+            <div id="list_with_commas"></div>
+            <hr>
+
+            <h2 style="margin-top: 20px; margin-bottom: 20px;">
+                Guest List
+            </h2>
+            <br>
+            <button id="show" onclick="show()">
+                Show
+            </button>
+            <br>
+            <div id="list_without_commas"></div>
+
+            <hr>
+            <br>
+            <button id="sorted_list_button" onclick="show_sorted_list()">
+                Sorted List
+            </button>
+            <br>
+            <div id="sorted_list"></div>
+
+            <hr>
+            <br>
+            <div>
+                <span>
+                    <input type="text" placeholder="Search Name" id="search_name">
+                </span>
+                <button id="search_button" onclick="search()">
+                    Search
+                </button>
+            </div>
+            <div id="show_search"></div>
+        </center>
+    </body>
+</html>
